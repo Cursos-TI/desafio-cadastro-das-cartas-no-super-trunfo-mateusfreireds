@@ -18,6 +18,10 @@ int main()
     float pib2;
     int npontosturisticos2;
 
+
+
+
+
     printf("Carta 1 ---\n"); 
 
     printf("Digite o estado (letra de A - H)\n");
@@ -80,6 +84,8 @@ int main()
     printf("Área: %.2f km²\n", area);
     printf("PIB: R$ %.2f\n", pib);
     printf("Pontos Turísticos: %d\n", npontosturisticos);
+    printf("Densidade populacional: %d hab/km2\n", populacao/area);
+    printf("PIB per capita: R$ %.2f\n", pib/populacao);
 
     printf("\n=== Dados da Carta 2 ===\n");
     printf("Estado: %c\n", estado2);
@@ -89,6 +95,8 @@ int main()
     printf("Área: %.2f km²\n", area2);
     printf("PIB: R$ %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", npontosturisticos2);
+    printf("Densidade populacional: %d hab/km2\n", populacao2/area2);
+    printf("PIB per capita: R$ %.2f\n", pib2/populacao2);
 
     return(0);
 
